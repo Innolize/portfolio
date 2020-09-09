@@ -9,8 +9,9 @@ const Contenedor = styled.div`
 `
 
 export default function Home() {
+
   return (
-    <Contenedor >
+    <Contenedor>
       <Principal />
       <Header />
       <InfoPersonal></InfoPersonal>
