@@ -3,7 +3,7 @@
         "titulo": "Instabook",
         "imagen": "./imagen/instabook.png",
         "descripcion": "Imitacion de red social, con funcionalidades crear cuenta, publicar y mirar perfiles de otros usuarios",
-        "Tecnologias utilizadas": [
+        "tecnologias utilizadas": [
             "React",
             "Material-ui",
             "Firebase",
@@ -15,7 +15,7 @@
         "titulo": "innoMDB",
         "imagen": "./imagen/innoMDB.png",
         "descripcion": "Imitacion de pagina web 'IMDB' con buscador de pelicula",
-        "Tecnologias utilizadas": [
+        "tecnologias utilizadas": [
             "React",
             "Styled-components",
             "React-router"
@@ -26,9 +26,20 @@
         "titulo": "to do list",
         "imagen": "./imagen/todolist-react.png",
         "descripcion": "Simple to do list para aprender las bases de redux. Permite crear una tarea, marcarla como completa o eliminarla.",
-        "Tecnologias utilizadas": [
+        "tecnologias utilizadas": [
             "React",
             "Redux"
+        ],
+        "link": "https://instabook-inno.netlify.app/"
+    },
+    {
+        "titulo": "Calendario semanal",
+        "imagen": "./imagen/instabook.png",
+        "descripcion": "Challenge de crear un calendario. Permite crear, modificar o eliminar eventos, invitar otros usuarios y confirmar asistencia a eventos.",
+        "tecnologias utilizadas": [
+            "Javascript",
+            "CSS",
+            "Cypress"
         ],
         "link": "https://instabook-inno.netlify.app/"
     }

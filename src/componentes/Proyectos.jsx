@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
-import Img from 'gatsby-image'
+import Proyecto from './Proyecto'
 
 const ContenedorPrincipal = styled.div`
     display:flex;
@@ -29,13 +29,14 @@ const ContenedorTituloProyecto = styled.div`
 
 const Proyectos = () => {
 
+
     const query = useStaticQuery(graphql`
         {
             allProyectosJson {
                 edges {
                   node {
                     descripcion
-                    Tecnologias_utilizadas
+                    tecnologias_utilizadas
                     link
                     titulo
                     imagen {
@@ -52,78 +53,46 @@ const Proyectos = () => {
         }
     `)
 
-    const data = query.allProyectosJson.edges
+    const respuestaQuery = query.allProyectosJson.edges
+    const data = respuestaQuery.map(respuesta => respuesta.node)
     console.log(data)
+    debugger
+
+    const [mostrar, setMostrar] = useState(data)
+
+    const mostrarTodos = () => {
+        setMostrar(data)
+    }
+
+    const filtrarProyectos = (string) => {
+        setMostrar(data.filter(x => x.tecnologias_utilizadas.includes(string)))
+    }
 
     return (
         <ContenedorPrincipal>
             <Titulo>Proyectos</Titulo>
             <ContenedorTituloProyecto>
-                <TituloProyecto>
+                <TituloProyecto onClick={mostrarTodos}>
                     <h3>Todos</h3>
                 </TituloProyecto>
-                <TituloProyecto>
+                <TituloProyecto onClick={() => filtrarProyectos('React')}>
                     <h3>React</h3>
                 </TituloProyecto>
-                <TituloProyecto>
+                <TituloProyecto onClick={() => filtrarProyectos('Javascript')}>
                     <h3>Javascript</h3>
                 </TituloProyecto>
-                <TituloProyecto>
-                    <h3>Node js</h3>
+                <TituloProyecto onClick={() => filtrarProyectos('Node.js')}>
+                    <h3>Node.js</h3>
                 </TituloProyecto>
             </ContenedorTituloProyecto>
             <ContenedorProyectos>
-                {data.map(({ node: proyecto }, i) => <Proyecto data={proyecto} key={i} />)}
+                {mostrar.map((proyecto, i) => <Proyecto data={proyecto} key={i} />)}
             </ContenedorProyectos>
         </ContenedorPrincipal>
     )
 }
 
-const ContenedorProyecto = styled.div`
-    display:flex;
-    flex-direction: column;
-`
 
-const ContenedorPrevia = styled.div`
-    width: 350px;
-    height: 250px;
-    position:absolute;
-    transition: opacity 0.5s, visibility 0.5s;
-    ${(props) => props.hover ? 'opacity:0; visibility: hidden;' : ""}
-        
-    
-`
-
-const ContenedorInfo = styled.div`
-    width: 350px;
-    height: 250px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-`
-
-
-const Proyecto = ({ data }) => {
-    // const imagen = data.imagen.childImageSharp.fluid
-
-    const [hover, setHover] = useState(false)
-    console.log(hover)
-    return (
-        <ContenedorProyecto
-            onMouseLeave={() => setHover(false)}
-            onMouseEnter={() => setHover(true)}
-        >
-            <ContenedorInfo hover={hover}>
-                <h3>{data.titulo}</h3>
-                <p>{data.descripcion}</p>
-                <a href={data.link}>{data.link}</a>
-            </ContenedorInfo>
-            <ContenedorPrevia hover={hover}>
-                <Img fluid={data.imagen.childImageSharp.fluid}></Img>
-            </ContenedorPrevia>
-        </ContenedorProyecto >
-    )
-}
 
 
 export default Proyectos
