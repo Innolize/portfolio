@@ -1,0 +1,35 @@
+[
+    {
+        "titulo": "Instabook",
+        "imagen": "./imagen/instabook.png",
+        "descripcion": "Imitacion de red social, con funcionalidades crear cuenta, publicar y mirar perfiles de otros usuarios",
+        "Tecnologias utilizadas": [
+            "React",
+            "Material-ui",
+            "Firebase",
+            "React-router"
+        ],
+        "link": "https://instabook-inno.netlify.app/"
+    },
+    {
+        "titulo": "innoMDB",
+        "imagen": "./imagen/innoMDB.png",
+        "descripcion": "Imitacion de pagina web 'IMDB' con buscador de pelicula",
+        "Tecnologias utilizadas": [
+            "React",
+            "Styled-components",
+            "React-router"
+        ],
+        "link": "https://instabook-inno.netlify.app/"
+    },
+    {
+        "titulo": "to do list",
+        "imagen": "./imagen/todolist-react.png",
+        "descripcion": "Simple to do list para aprender las bases de redux. Permite crear una tarea, marcarla como completa o eliminarla.",
+        "Tecnologias utilizadas": [
+            "React",
+            "Redux"
+        ],
+        "link": "https://instabook-inno.netlify.app/"
+    }
+]
