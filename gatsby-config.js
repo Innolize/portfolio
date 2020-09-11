@@ -32,6 +32,7 @@ module.exports = {
     },
     'gatsby-transformer-json',
     'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp'
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-fontawesome-css'
   ]
 }

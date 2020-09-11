@@ -64,7 +64,8 @@ const ContenedorFooter = styled.div`
 
 const Footer = () => {
     return (
-        <ContenedorFooter>asd</ContenedorFooter>
+        <ContenedorFooter>
+        </ContenedorFooter>
     )
 }
 
