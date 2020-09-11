@@ -59,7 +59,7 @@
         "imagen": "./imagen/CRUD.png",
         "descripcion": "Server side rendering. Te permite agregar, eliminar o editar clubes de la liga inglesa.",
         "tecnologias utilizadas": [
-            "NodeJs",
+            "Node",
             "Express"
         ],
         "link": "https://instabook-inno.netlify.app/"

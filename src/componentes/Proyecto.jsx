@@ -4,12 +4,12 @@ import Img from 'gatsby-image'
 
 const ContenedorProyecto = styled.div`
     display:flex;
-    flex-direction: column;
+    min-height:180px;
+    padding:10px;
 `
 
 const ContenedorPrevia = styled.div`
     width: 350px;
-    height: 250px;
     position:absolute;
     transition: opacity 0.5s, visibility 0.5s;
     ${(props) => props.hover ? 'opacity:0; visibility: hidden;' : ""}
@@ -19,7 +19,6 @@ const ContenedorPrevia = styled.div`
 
 const ContenedorInfo = styled.div`
     width: 350px;
-    height: 250px;
     display:flex;
     flex-direction: column;
     align-items: center;

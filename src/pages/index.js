@@ -5,6 +5,8 @@ import Header from "../componentes/Header"
 import InfoPersonal from '../componentes/InfoPersonal'
 import Proyectos from '../componentes/Proyectos'
 import Contacto from '../componentes/Contacto'
+import sal from 'sal.js'
+
 
 const Contenedor = styled.div`
   font-family: Kumbh Sans;
@@ -13,13 +15,16 @@ const Contenedor = styled.div`
 
 export default function Home() {
 
+  //Activa animaciones en toda la app
+  sal();
+
   return (
     <Contenedor>
       <Principal />
       <Header />
-      <InfoPersonal></InfoPersonal>
+      <InfoPersonal />
       <Proyectos></Proyectos>
-      <Contacto/>
+      <Contacto />
     </Contenedor>
   )
 }

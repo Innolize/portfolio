@@ -15,6 +15,8 @@ const Titulo = styled.h1`
 
 const ContenedorProyectos = styled.div`
     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 `
 
@@ -67,7 +69,10 @@ const Proyectos = () => {
     }
 
     return (
-        <ContenedorPrincipal id="proyectos">
+        <ContenedorPrincipal id="proyectos"
+            data-sal="zoom-in"
+            data-sal-duration="1000"
+        >
             <Titulo>Proyectos</Titulo>
             <ContenedorTituloProyecto>
                 <TituloProyecto onClick={mostrarTodos}>
@@ -79,7 +84,7 @@ const Proyectos = () => {
                 <TituloProyecto onClick={() => filtrarProyectos('Javascript')}>
                     <h3>Javascript</h3>
                 </TituloProyecto>
-                <TituloProyecto onClick={() => filtrarProyectos('Node.js')}>
+                <TituloProyecto onClick={() => filtrarProyectos('Node')}>
                     <h3>Node.js</h3>
                 </TituloProyecto>
             </ContenedorTituloProyecto>

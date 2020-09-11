@@ -46,7 +46,10 @@ const Contacto = () => {
     return (
         <ContenedorContacto id="contacto">
             <Separador />
-            <Contenido>
+            <Contenido
+                data-sal="zoom-out"
+                data-sal-delay="2000"
+            >
                 <h1>Contacto</h1>
                 <h3>Tenes alguna pregunta o queres contactarte conmigo?</h3>
                 <form action="https://getform.io/f/105fb10e-ffa1-496e-b670-f66d7b7b047d" method="POST">

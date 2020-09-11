@@ -12,7 +12,11 @@ const ContenedorInfoPersonal = styled.div`
 
 const InfoPersonal = () => {
     return (
-        <ContenedorInfoPersonal id="informacion-personal">
+        <ContenedorInfoPersonal
+            id="informacion-personal"
+            data-sal="slide-right"
+            data-sal-duration="1000"
+        >
             <Carta></Carta>
             <Estadisticas></Estadisticas>
         </ContenedorInfoPersonal>

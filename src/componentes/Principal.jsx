@@ -27,9 +27,13 @@ const BotonEstilado = styled.div`
 const Principal = () => {
     return (
         <ContenedorPrincipal id="home">
-            <Titulo>Hola! Soy Román Mettler.</Titulo>
-            <Titulo>Frontend developer</Titulo>
-            <BotonEstilado> a mis proyectos!</BotonEstilado>
+            <div
+                data-sal="slide-down"
+                data-sal-delay="500">
+                <Titulo>Hola! Soy Román Mettler.</Titulo>
+                <Titulo>Frontend developer</Titulo>
+                <BotonEstilado> a mis proyectos!</BotonEstilado>
+            </div>
         </ContenedorPrincipal>
     )
 }
