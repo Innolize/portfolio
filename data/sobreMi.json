@@ -1,0 +1,39 @@
+[
+    {
+        "descripcion": "Soy desarrollador Frontend de manera autodidacta. Estoy en busca de mi oportunidad laboral en este mundo de la programacion y mi principal objetivo es seguir aprendiendo nuevas tecnologias.",
+        "tecnologias": [
+            {
+                "tecnologia": "Javascript",
+                "confianza": "70%"
+            },
+            {
+                "tecnologia": "CSS",
+                "confianza": "80%"
+            },
+            {
+                "tecnologia": "React",
+                "confianza": "70%"
+            },
+            {
+                "tecnologia": "Restful API",
+                "confianza": "80%"
+            },
+            {
+                "tecnologia": "Redux",
+                "confianza": "60%"
+            },
+            {
+                "tecnologia": "Cypress",
+                "confianza": "60%"
+            },
+            {
+                "tecnologia": "Firebase",
+                "confianza": "70%"
+            },
+            {
+                "tecnologia": "Node.js",
+                "confianza": "40%"
+            }
+        ]
+    }
+]

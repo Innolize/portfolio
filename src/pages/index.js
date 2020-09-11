@@ -5,6 +5,7 @@ import Header from "../componentes/Header"
 import InfoPersonal from '../componentes/InfoPersonal'
 import Proyectos from '../componentes/Proyectos'
 import Contacto from '../componentes/Contacto'
+import Cualidades from '../componentes/Cualidades'
 import sal from 'sal.js'
 
 
@@ -21,8 +22,10 @@ export default function Home() {
   return (
     <Contenedor>
       <Principal />
+
       <Header />
       <InfoPersonal />
+      <Cualidades></Cualidades>
       <Proyectos></Proyectos>
       <Contacto />
     </Contenedor>

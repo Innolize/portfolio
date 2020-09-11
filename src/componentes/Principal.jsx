@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-scroll'
 
 const ContenedorPrincipal = styled.div`
     height: 100vh;
@@ -22,18 +23,25 @@ const BotonEstilado = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+`
+
+const ContenedorTexto = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
 
 const Principal = () => {
     return (
         <ContenedorPrincipal id="home">
-            <div
+            <ContenedorTexto
                 data-sal="slide-down"
                 data-sal-delay="500">
                 <Titulo>Hola! Soy Román Mettler.</Titulo>
-                <Titulo>Frontend developer</Titulo>
+                <Titulo>Frontend developer jr.</Titulo>
                 <BotonEstilado> a mis proyectos!</BotonEstilado>
-            </div>
+            </ContenedorTexto>
         </ContenedorPrincipal>
     )
 }

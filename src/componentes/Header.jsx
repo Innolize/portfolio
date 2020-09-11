@@ -13,7 +13,8 @@ const ContenedorHeader = styled.div`
 const Item = styled(Link)`
     color: white;
     align-self: center;
-    padding-left: 30px;
+    margin-left: 30px;
+    cursor: pointer;
 `
 
 const Header = () => {
@@ -25,8 +26,6 @@ const Header = () => {
             window.scrollY > window.innerHeight ? setFixed(true) : setFixed(false)
         }
         window.addEventListener('scroll', onScrollHeight)
-
-
     })
     return (
         <ContenedorHeader fixed={fixed}>
