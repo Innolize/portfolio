@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
 import Proyecto from './Proyecto'
@@ -55,8 +55,6 @@ const Proyectos = () => {
 
     const respuestaQuery = query.allProyectosJson.edges
     const data = respuestaQuery.map(respuesta => respuesta.node)
-    console.log(data)
-    debugger
 
     const [mostrar, setMostrar] = useState(data)
 
@@ -69,7 +67,7 @@ const Proyectos = () => {
     }
 
     return (
-        <ContenedorPrincipal>
+        <ContenedorPrincipal id="proyectos">
             <Titulo>Proyectos</Titulo>
             <ContenedorTituloProyecto>
                 <TituloProyecto onClick={mostrarTodos}>
