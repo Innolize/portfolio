@@ -27,7 +27,6 @@ const ContenedorInfo = styled.div`
 
 
 const Proyecto = ({ data }) => {
-    // const imagen = data.imagen.childImageSharp.fluid
     const [hover, setHover] = useState(false)
 
     return (
