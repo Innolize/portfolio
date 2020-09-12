@@ -20,7 +20,7 @@
             "Styled-components",
             "React-router"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "https://inno-imdb.netlify.app/"
     },
     {
         "titulo": "to do list",
@@ -52,7 +52,7 @@
             "Styled-components",
             "React-router"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "https://poke-react-inno.netlify.app/"
     },
     {
         "titulo": "CRUD CLUBES",
@@ -66,13 +66,13 @@
     },
     {
         "titulo": "Filtrado de trabajos",
-        "imagen": "./imagen/CRUD.png",
+        "imagen": "./imagen/job-listing.png",
         "descripcion": "Simple to do list para aprender las bases de React. Filtra de manera dinamica al hacer click en algun sticky matcheando otros trabajos que tengan la misma propiedad.",
         "tecnologias utilizadas": [
             "React",
             "Redux"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "https://job-listing-inno.netlify.app/"
     },
     {
         "titulo": "Simon dice",
@@ -82,16 +82,16 @@
             "Javascript",
             "Bootstrap"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "https://innolize.github.io/Simon-dice/"
     },
     {
         "titulo": "Memotest",
-        "imagen": "./imagen/calendario.png",
+        "imagen": "./imagen/memotest.png",
         "descripcion": "Memotest simple.",
         "tecnologias utilizadas": [
             "Javascript"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "https://innolize.github.io/Memotest/"
     },
     {
         "titulo": "Pokedex",
@@ -101,20 +101,20 @@
             "Javascript",
             "tailwind"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "https://innolize.github.io/pokedex/"
     },
     {
         "titulo": "Spotify",
-        "imagen": "./imagen/calendario.png",
+        "imagen": "./imagen/spotify-css.png",
         "descripcion": "Replica de interfaz de spotify.",
         "tecnologias utilizadas": [
             "CSS"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "https://innolize.github.io/Spotify/"
     },
     {
         "titulo": "Portfolio",
-        "imagen": "./imagen/calendario.png",
+        "imagen": "./imagen/portfolio.png",
         "descripcion": "Lo estas viendo!.",
         "tecnologias utilizadas": [
             "React",

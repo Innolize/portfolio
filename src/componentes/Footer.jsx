@@ -23,13 +23,21 @@ const FinalDePagina = styled.h5`
     padding-top: 15px;
     margin: 0;
 `
+const Link = styled.a`
+    color:white;
+`
 
 const Footer = () => {
     return (
         <ContenedorFooter>
             <ContenedorIconos>
-                <IconoEstilado icon={faLinkedin} />
-                <IconoEstilado icon={faGithub} />
+                <Link href="https://github.com/Innolize">
+                    <IconoEstilado icon={faLinkedin} />
+                </Link>
+                <Link href="https://www.linkedin.com/in/roman-mettler-265b45a4/">
+                    <IconoEstilado icon={faGithub} />
+                </Link>
+
             </ContenedorIconos>
             <FinalDePagina>Román Mettler ©2020</FinalDePagina>
         </ContenedorFooter>

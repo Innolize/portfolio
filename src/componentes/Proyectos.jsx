@@ -23,6 +23,7 @@ const ContenedorProyectos = styled.div`
 
 const TituloProyecto = styled.div`
     padding: 0px 40px 0px 40px;
+    cursor: pointer;
 `
 
 const ContenedorTituloProyecto = styled.div`

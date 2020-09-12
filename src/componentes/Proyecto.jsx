@@ -13,8 +13,6 @@ const ContenedorPrevia = styled.div`
     position:absolute;
     transition: opacity 0.5s, visibility 0.5s;
     ${(props) => props.hover ? 'opacity:0; visibility: hidden;' : ""}
-        
-    
 `
 
 const ContenedorInfo = styled.div`
