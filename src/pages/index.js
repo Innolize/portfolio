@@ -6,6 +6,7 @@ import InfoPersonal from '../componentes/InfoPersonal'
 import Proyectos from '../componentes/Proyectos'
 import Contacto from '../componentes/Contacto'
 import Cualidades from '../componentes/Cualidades'
+import Footer from '../componentes/Footer'
 import sal from 'sal.js'
 
 
@@ -28,6 +29,7 @@ export default function Home() {
       <Cualidades></Cualidades>
       <Proyectos></Proyectos>
       <Contacto />
+      <Footer />
     </Contenedor>
   )
 }

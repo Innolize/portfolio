@@ -3,25 +3,25 @@ import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLanguage, faPencilAlt, faVials } from '@fortawesome/free-solid-svg-icons'
 
+const ContenedorPrincipal = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+`
+
 const ContenedorCualidades = styled.div`
     display:flex;
     justify-content: space-around;
+    
 `
 const Titulo = styled.h1`
     align-self: center;
 `
 
-const ContenedorPrincipal = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-`
-
 const Cualidades = () => {
     return (
-        <ContenedorPrincipal>
+        <ContenedorPrincipal id="cualidades">
             <Titulo>Mas de mi?</Titulo>
             <ContenedorCualidades>
                 <Cualidad icon={faPencilAlt} titulo="Autodidacta" descripcion={"Soy autodidacta! Todo lo aprendido fue por cuenta propia mirando videos y leyendo documentacion"} />

@@ -5,11 +5,9 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 const ContenedorInfoPersonal = styled.div`
     display: flex;
-    justify-content:center;
-    align-items: center;
+    flex-direction: column;
     width: 100%;
-    height: 100vh;
-    padding: 30px 0px 30px 0px;
+    padding-top: 100px;
 `
 
 const ContenedorEstadisticas = styled.div`
@@ -19,6 +17,14 @@ const ContenedorEstadisticas = styled.div`
     flex-direction: column;
     width: 100%;
     padding: 0px 40px 0px 40px;
+`
+const Titulo = styled.h1`
+    align-self: center;
+`
+const Contenido = styled.div`
+    display: flex;
+    justify-content:center;
+    align-items: center;
 `
 
 const InfoPersonal = () => {
@@ -36,7 +42,6 @@ const InfoPersonal = () => {
     `)
 
     const data = query.sobreMiJson
-    console.log(data)
 
     return (
         <ContenedorInfoPersonal
@@ -44,10 +49,13 @@ const InfoPersonal = () => {
             data-sal="slide-right"
             data-sal-duration="1000"
         >
-            <Carta descripcion={data.descripcion}></Carta>
-            <ContenedorEstadisticas>
-                {data.tecnologias.map((x, i) => <Estadistica data={x} key={i} />)}
-            </ContenedorEstadisticas>
+            <Titulo>Sobre mi</Titulo>
+            <Contenido>
+                <Carta descripcion={data.descripcion}></Carta>
+                <ContenedorEstadisticas>
+                    {data.tecnologias.map((x, i) => <Estadistica data={x} key={i} />)}
+                </ContenedorEstadisticas>
+            </Contenido>
         </ContenedorInfoPersonal>
     )
 }
@@ -67,7 +75,6 @@ const Carta = ({ descripcion }) => {
     return (
         <ContenedorCarta>
             <img style={{ height: 200 }} src="https://picsum.photos/600/600" alt="test"></img>
-            <h3>Mas de mi?</h3>
             <p style={{ width: '50%' }}>{descripcion}</p>
         </ContenedorCarta>
     )

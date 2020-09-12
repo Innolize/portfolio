@@ -31,8 +31,10 @@ const Header = () => {
         <ContenedorHeader fixed={fixed}>
             <Item to="home" smooth={true} duration={500}>Inicio</Item>
             <Item to="informacion-personal" smooth={true} duration={500} >Sobre mi</Item>
+            <Item to="cualidades" smooth={true} duration={500} >Cualidades</Item>
             <Item to="proyectos" smooth={true} duration={500} >Proyectos</Item>
             <Item to="contacto" smooth={true} duration={500} >Contacto</Item>
+
         </ContenedorHeader>
     )
 }

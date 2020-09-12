@@ -5,9 +5,10 @@ import Proyecto from './Proyecto'
 
 const ContenedorPrincipal = styled.div`
     display:flex;
-    height: 100vh;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 `
 
 const Titulo = styled.h1`

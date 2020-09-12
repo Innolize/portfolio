@@ -1,8 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-
 
 const Separador = styled.div`
     position: absolute;
@@ -20,12 +17,13 @@ const Separador = styled.div`
 
 const ContenedorContacto = styled.div`
     position:relative;
-    height: 100vh;
     background-color: #2c3e50;
     display:flex;
     align-items: center;
     flex-direction: column;
     color:white;
+    padding-top: 100px;
+    height: 80vh;
 `
 
 const Contenido = styled.div`
@@ -59,43 +57,11 @@ const Contacto = () => {
                     <button type="submit">Enviar</button>
                 </form>
             </Contenido>
-            <Footer />
+
         </ContenedorContacto>
     )
 }
 
-const ContenedorFooter = styled.div`
-    position: absolute;
-    bottom: 0;
-    height:120px;
-    width: 100%;
-    background-color: black;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-`
-const IconoEstilado = styled(FontAwesomeIcon)`
-    font-size:60px;
-    padding:25px 20px 0px 20px;
-`
-const ContenedorIconos = styled.div`
-    display:flex;
-`
-const FinalDePagina = styled.h5`
-    padding-top: 15px;
-    margin: 0;
-`
 
-const Footer = () => {
-    return (
-        <ContenedorFooter>
-            <ContenedorIconos>
-                <IconoEstilado icon={faLinkedin} />
-                <IconoEstilado icon={faGithub} />
-            </ContenedorIconos>
-            <FinalDePagina>Román Mettler ©2020</FinalDePagina>
-        </ContenedorFooter>
-    )
-}
 
 export default Contacto
