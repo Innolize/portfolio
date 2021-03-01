@@ -15,7 +15,7 @@ const ContenedorEstadisticas = styled.div`
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 360px;
     padding: 0px 40px 0px 40px;
 `
 const Titulo = styled.h1`
@@ -23,8 +23,9 @@ const Titulo = styled.h1`
 `
 const Contenido = styled.div`
     display: flex;
-    justify-content:center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 `
 
 const InfoPersonal = () => {
@@ -44,20 +45,22 @@ const InfoPersonal = () => {
     const data = query.sobreMiJson
 
     return (
-        <ContenedorInfoPersonal
-            id="informacion-personal"
-            data-sal="slide-right"
-            data-sal-duration="1000"
-            data-sal-easing="easeInCubic"
-        >
-            <Titulo>Sobre mi</Titulo>
-            <Contenido>
-                <Carta descripcion={data.descripcion}></Carta>
-                <ContenedorEstadisticas>
-                    {data.tecnologias.map((x, i) => <Estadistica data={x} key={i} />)}
-                </ContenedorEstadisticas>
-            </Contenido>
-        </ContenedorInfoPersonal>
+        <>
+            <ContenedorInfoPersonal
+                id="informacion-personal"
+                data-sal="slide-right"
+                data-sal-duration="1000"
+                data-sal-easing="easeInCubic"
+            >
+                <Titulo>Sobre mi</Titulo>
+                <Contenido>
+                    <Carta descripcion={data.descripcion}></Carta>
+                    <ContenedorEstadisticas>
+                        {data.tecnologias.map((x, i) => <Estadistica data={x} key={i} />)}
+                    </ContenedorEstadisticas>
+                </Contenido>
+            </ContenedorInfoPersonal>
+        </>
     )
 }
 
@@ -69,7 +72,7 @@ const ContenedorCarta = styled.div`
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 360px;
 `
 
 const Carta = ({ descripcion }) => {

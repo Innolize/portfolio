@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 
@@ -24,6 +24,10 @@ const ContenedorInfo = styled.div`
     align-items: center;
 `
 
+const DescripcionUsuario = styled.p`
+    text-align: center;
+`
+
 
 const Proyecto = ({ data }) => {
     const [hover, setHover] = useState(false)
@@ -34,7 +38,7 @@ const Proyecto = ({ data }) => {
         >
             <ContenedorInfo hover={hover}>
                 <h3>{data.titulo}</h3>
-                <p>{data.descripcion}</p>
+                <DescripcionUsuario>{data.descripcion}</DescripcionUsuario>
                 {data.link && <a href={data.link}>Ir a pagina!</a>}
                 <a href="">Codigo</a>
             </ContenedorInfo>

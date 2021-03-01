@@ -108,7 +108,7 @@
     {
         "titulo": "Filtrado de trabajos",
         "imagen": "./imagen/job-listing.png",
-        "descripcion": "Simple to do list para aprender las bases de React. Filtra de manera dinamica al hacer click en algun sticky matcheando otros trabajos que tengan la misma propiedad.",
+        "descripcion": "Simple filtro para aprender las bases de React.",
         "tecnologias utilizadas": [
             "React",
             "Redux"

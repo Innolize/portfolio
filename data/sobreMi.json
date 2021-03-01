@@ -7,6 +7,10 @@
                 "confianza": "80%"
             },
             {
+                "tecnologia": "Typescript",
+                "confianza": "70%"
+            },
+            {
                 "tecnologia": "CSS",
                 "confianza": "70%"
             },
