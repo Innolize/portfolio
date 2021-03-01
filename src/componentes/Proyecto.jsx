@@ -5,7 +5,9 @@ import Img from 'gatsby-image'
 const ContenedorProyecto = styled.div`
     display:flex;
     min-height:180px;
-    padding:10px;
+    padding: 10px;
+    border: 2px solid #2C3E50;
+    margin: 10px;
 `
 
 const ContenedorPrevia = styled.div`
@@ -25,7 +27,6 @@ const ContenedorInfo = styled.div`
 
 const Proyecto = ({ data }) => {
     const [hover, setHover] = useState(false)
-
     return (
         <ContenedorProyecto
             onMouseLeave={() => setHover(false)}
@@ -34,7 +35,8 @@ const Proyecto = ({ data }) => {
             <ContenedorInfo hover={hover}>
                 <h3>{data.titulo}</h3>
                 <p>{data.descripcion}</p>
-                <a href={data.link}>{data.link}</a>
+                {data.link && <a href={data.link}>Ir a pagina!</a>}
+                <a href="">Codigo</a>
             </ContenedorInfo>
             <ContenedorPrevia hover={hover}>
                 <Img fluid={data.imagen.childImageSharp.fluid}></Img>

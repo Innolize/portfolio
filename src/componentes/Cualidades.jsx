@@ -21,7 +21,11 @@ const Titulo = styled.h1`
 
 const Cualidades = () => {
     return (
-        <ContenedorPrincipal id="cualidades">
+        <ContenedorPrincipal id="cualidades"
+            data-sal="slide-left"
+            data-sal-duration="1000"
+            data-sal-easing="easeInCubic"
+        >
             <Titulo>Mas de mi?</Titulo>
             <ContenedorCualidades>
                 <Cualidad icon={faPencilAlt} titulo="Autodidacta" descripcion={"Soy autodidacta! Todo lo aprendido fue por cuenta propia mirando videos y leyendo documentacion"} />
@@ -38,10 +42,6 @@ const ContenedorCualidad = styled.div`
     width: 300px;
     border: solid #808080;
     padding: 20px;
-`
-
-const ContenedorIcono = styled.div`
-    width:200px;
 `
 
 const IconoEstilado = styled(FontAwesomeIcon)`

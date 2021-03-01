@@ -74,6 +74,7 @@ const Proyectos = () => {
         <ContenedorPrincipal id="proyectos"
             data-sal="zoom-in"
             data-sal-duration="1000"
+            data-sal-easing="easeInCubic"
         >
             <Titulo>Proyectos</Titulo>
             <ContenedorTituloProyecto>

@@ -46,7 +46,8 @@ const Contacto = () => {
             <Separador />
             <Contenido
                 data-sal="zoom-out"
-                data-sal-delay="2000"
+                data-sal-delay="1000"
+                data-sal-easing="easeInCubic"
             >
                 <h1>Contacto</h1>
                 <h3>Tenes alguna pregunta o queres contactarte conmigo?</h3>

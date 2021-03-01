@@ -48,6 +48,7 @@ const InfoPersonal = () => {
             id="informacion-personal"
             data-sal="slide-right"
             data-sal-duration="1000"
+            data-sal-easing="easeInCubic"
         >
             <Titulo>Sobre mi</Titulo>
             <Contenido>

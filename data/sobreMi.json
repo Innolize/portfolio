@@ -4,15 +4,15 @@
         "tecnologias": [
             {
                 "tecnologia": "Javascript",
-                "confianza": "70%"
-            },
-            {
-                "tecnologia": "CSS",
                 "confianza": "80%"
             },
             {
-                "tecnologia": "React",
+                "tecnologia": "CSS",
                 "confianza": "70%"
+            },
+            {
+                "tecnologia": "React",
+                "confianza": "80%"
             },
             {
                 "tecnologia": "Restful API",
@@ -27,12 +27,12 @@
                 "confianza": "60%"
             },
             {
-                "tecnologia": "Firebase",
-                "confianza": "70%"
+                "tecnologia": "Jest",
+                "confianza": "60%"
             },
             {
                 "tecnologia": "Node.js",
-                "confianza": "40%"
+                "confianza": "70%"
             }
         ]
     }
