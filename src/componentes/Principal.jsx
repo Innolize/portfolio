@@ -38,7 +38,7 @@ const Principal = () => {
                 data-sal="slide-down"
                 data-sal-delay="500">
                 <Titulo>Hola! Soy Román Mettler.</Titulo>
-                <Titulo>Frontend developer jr.</Titulo>
+                <Titulo>Fullstack Developer.</Titulo>
                 <Link to="informacion-personal" smooth={true} duration={500} >
                     <IconoEstilado icon={faArrowDown}></IconoEstilado>
                 </Link>

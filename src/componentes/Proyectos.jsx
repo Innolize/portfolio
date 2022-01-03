@@ -43,6 +43,7 @@ const Proyectos = () => {
                     tecnologias_utilizadas
                     link
                     titulo
+                    codigo
                     imagen {
                       publicURL
                       childImageSharp {

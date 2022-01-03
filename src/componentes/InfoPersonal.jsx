@@ -79,7 +79,7 @@ const Carta = ({ descripcion }) => {
     return (
         <ContenedorCarta>
             <img style={{ height: 200 }} src="https://picsum.photos/600/600" alt="test"></img>
-            <p style={{ width: '50%' }}>{descripcion}</p>
+            <p style={{ textAlign: 'center' }}>{descripcion}</p>
         </ContenedorCarta>
     )
 }

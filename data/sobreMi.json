@@ -1,14 +1,14 @@
 [
     {
-        "descripcion": "Soy desarrollador Frontend de manera autodidacta. Estoy en busca de mi oportunidad laboral en este mundo de la programacion y mi principal objetivo es seguir aprendiendo nuevas tecnologias.",
+        "descripcion": "Mi nombre es Román y Soy Desarrollador Fullstack Javascript. Me gustan los desafíos y resolver problemas, por lo que programar se volvió mi hobby preferido. Estoy siempre abierto a aprender nuevas tecnologías. Tengo conocimientos basicos de otros lenguajes como C# y Python, pero por el momento con Typescript es donde me siento mas comodo.",
         "tecnologias": [
             {
                 "tecnologia": "Javascript",
-                "confianza": "80%"
+                "confianza": "85%"
             },
             {
                 "tecnologia": "Typescript",
-                "confianza": "70%"
+                "confianza": "85%"
             },
             {
                 "tecnologia": "CSS",
@@ -32,11 +32,11 @@
             },
             {
                 "tecnologia": "Jest",
-                "confianza": "60%"
+                "confianza": "80%"
             },
             {
                 "tecnologia": "Node.js",
-                "confianza": "70%"
+                "confianza": "75%"
             }
         ]
     }

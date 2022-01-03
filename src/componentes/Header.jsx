@@ -15,6 +15,8 @@ const Item = styled(Link)`
     align-self: center;
     margin-left: 30px;
     cursor: pointer;
+    font-weight: bold;
+    font-size:20px;
 `
 
 const Header = () => {

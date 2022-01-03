@@ -12,7 +12,8 @@ const ContenedorPrincipal = styled.div`
 
 const ContenedorCualidades = styled.div`
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     
 `
 const Titulo = styled.h1`
@@ -29,8 +30,8 @@ const Cualidades = () => {
             <Titulo>Mas de mi?</Titulo>
             <ContenedorCualidades>
                 <Cualidad icon={faPencilAlt} titulo="Autodidacta" descripcion={"Soy autodidacta! Todo lo aprendido fue por cuenta propia mirando videos y leyendo documentacion"} />
-                <Cualidad icon={faLanguage} titulo="Ingles" descripcion={"Mi capacidad de lectura y comprension de ingles es intermedio-avanzado. La mayoria del material para aprender y la documentacion esta en ingles, cosa que no es problema"} />
-                <Cualidad icon={faVials} titulo="Testing" descripcion={"Conozco las bases de testo ya que en algunos proyectos esta implementado testeo con Cypress y Jest"} />
+                <Cualidad icon={faLanguage} titulo="Ingles" descripcion={"Mi capacidad de lectura y comprension de ingles es intermedio-avanzado. Gran parte del material para aprender y documentacion esta en ingles, cosa que no es problema"} />
+                <Cualidad icon={faVials} titulo="Testing" descripcion={"Tengo experiencia haciendo testeos End-to-End y Unit Testing utilizando Cypress y Jest"} />
             </ContenedorCualidades>|
         </ContenedorPrincipal>
     )
@@ -52,11 +53,12 @@ const IconoEstilado = styled(FontAwesomeIcon)`
 `
 
 const Descripcion = styled.p`
-
+    text-align: center;
 `
 
 const TituloDescripcion = styled.h3`
     align-self: center;
+    text-decoration-line: underline;
 `
 
 const Cualidad = ({ icon, titulo = "Titulo", descripcion = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quas harum exercitationem eius quaerat nihil animi reiciendis et possimus optio. Numquam reiciendis saepe doloribus ducimus exercitationem? Doloribus incidunt perspiciatis possimus." }) => {

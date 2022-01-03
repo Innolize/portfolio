@@ -1,7 +1,7 @@
 [
     {
         "titulo": "Copia de twitter",
-        "imagen": "./imagen/instabook.png",
+        "imagen": "./imagen/twitter.png",
         "descripcion": "Red social fullstack al estilo twitter con front hecho en React y back en NestJs",
         "tecnologias utilizadas": [
             "Typescript",
@@ -13,12 +13,13 @@
             "NestJs",
             "Node"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "https://inno-twitter.netlify.app/",
+        "codigo": "https://github.com/Innolize/twitter-front"
     },
     {
         "titulo": "Sistema backend para renta de autos",
-        "imagen": "./imagen/instabook.png",
-        "descripcion": "Back-office para sistema de renta de autos, almacena datos utilizando SQLite y usa Nunjucks como template engine",
+        "imagen": "./imagen/renta-autos.png",
+        "descripcion": "Back-office para sistema de renta de autos, SQLite como Database y Nunjucks como template engine",
         "tecnologias utilizadas": [
             "Bulma",
             "SQLite",
@@ -27,64 +28,69 @@
             "NestJs",
             "Node"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "codigo": "https://github.com/Innolize/renta-de-autos"
     },
     {
         "titulo": "Instabook",
         "imagen": "./imagen/instabook.png",
-        "descripcion": "Imitacion de red social, con funcionalidades crear cuenta, publicar y mirar perfiles de otros usuarios",
+        "descripcion": "Imitación de red social en firebase (db tiempo real). Permite publicar y mirar perfiles de otros usuarios",
         "tecnologias utilizadas": [
             "React",
             "Material-ui",
             "Firebase",
             "React-router"
         ],
-        "link": "https://instabook-inno.netlify.app/"
-    },
-    {
-        "titulo": "Instabook",
-        "imagen": "./imagen/instabook.png",
-        "descripcion": "Tutorial de socket.io para armar un chat en tiempo real",
-        "tecnologias utilizadas": [
-            "Socket.io",
-            "Javascript"
-        ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "https://instabook-inno.netlify.app/",
+        "codigo": "https://github.com/Innolize/instabook"
     },
     {
         "titulo": "innoMDB",
         "imagen": "./imagen/innoMDB.png",
-        "descripcion": "Imitacion de pagina web 'IMDB' con buscador de pelicula",
+        "descripcion": "Imitación de pagina web 'IMDB' con buscador de película",
         "tecnologias utilizadas": [
             "React",
             "Styled-components",
             "React-router"
         ],
-        "link": "https://inno-imdb.netlify.app/"
+        "link": "https://inno-imdb.netlify.app/",
+        "codigo": "https://github.com/Innolize/imdb"
     },
     {
-        "titulo": "to do list",
+        "titulo": "Portfolio",
+        "imagen": "./imagen/portfolio.png",
+        "descripcion": "Lo estas viendo!. Hecho con React, Gatsby y styled components",
+        "tecnologias utilizadas": [
+            "React",
+            "Styled-components",
+            "Gatsby"
+        ],
+        "link": "https://instabook-inno.netlify.app/",
+        "codigo": "https://github.com/Innolize/portfolio"
+    },
+    {
+        "titulo": "To-do list",
         "imagen": "./imagen/todolist-react.png",
-        "descripcion": "Simple to do list para aprender las bases de redux. Permite crear una tarea, marcarla como completa o eliminarla.",
+        "descripcion": "Simple to do list para aprender las bases de Redux. Permite crear una tarea, marcarla como completa o eliminarla.",
         "tecnologias utilizadas": [
             "React",
             "Redux"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "todo-redux-inno.netlify.app",
+        "codigo": "https://github.com/Innolize/todo-list-redux"
     },
     {
         "titulo": "Calendario semanal",
         "imagen": "./imagen/calendario.png",
-        "descripcion": "Challenge de crear un calendario. Permite crear, modificar o eliminar eventos, invitar otros usuarios y confirmar asistencia a eventos.",
+        "descripcion": "Permite crear, modificar o eliminar eventos, invitar otros usuarios y confirmar asistencia a eventos. Incluye tests",
         "tecnologias utilizadas": [
             "Javascript",
             "CSS",
             "Cypress"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "codigo": "https://github.com/Innolize/Calendario"
     },
     {
-        "titulo": "Pokedex-react",
+        "titulo": "Pokedex React",
         "imagen": "./imagen/pokedex-react.png",
         "descripcion": "Pokedex que permite buscar, filtrar y mostrar pokemones",
         "tecnologias utilizadas": [
@@ -92,18 +98,19 @@
             "Styled-components",
             "React-router"
         ],
-        "link": "https://poke-react-inno.netlify.app/"
+        "link": "https://poke-react-inno.netlify.app/",
+        "codigo": "https://github.com/Innolize/pokedex-react"
     },
     {
         "titulo": "CRUD CLUBES",
         "imagen": "./imagen/CRUD.png",
-        "descripcion": "Proyecto hecho con express y usa handlebars como template engine. Permite agregar, eliminar o editar clubes de la liga inglesa.",
+        "descripcion": "App monolítica hecha con express y handlebars. Permite agregar, eliminar o editar clubes de la liga inglesa.",
         "tecnologias utilizadas": [
             "Node",
             "Express",
             "Handlebars"
         ],
-        "link": "https://instabook-inno.netlify.app/"
+        "codigo": "https://github.com/Innolize/crud-clubes"
     },
     {
         "titulo": "Filtrado de trabajos",
@@ -113,7 +120,8 @@
             "React",
             "Redux"
         ],
-        "link": "https://job-listing-inno.netlify.app/"
+        "link": "https://job-listing-inno.netlify.app/",
+        "codigo": "https://github.com/Innolize/job-listing"
     },
     {
         "titulo": "Simon dice",
@@ -123,7 +131,8 @@
             "Javascript",
             "Bootstrap"
         ],
-        "link": "https://innolize.github.io/Simon-dice/"
+        "link": "https://innolize.github.io/Simon-dice/",
+        "codigo": "https://github.com/Innolize/Simon-dice"
     },
     {
         "titulo": "Memotest",
@@ -132,36 +141,28 @@
         "tecnologias utilizadas": [
             "Javascript"
         ],
-        "link": "https://innolize.github.io/Memotest/"
+        "link": "https://innolize.github.io/Memotest/",
+        "codigo": "https://github.com/Innolize/Memotest"
     },
     {
-        "titulo": "Pokedex",
+        "titulo": "Pokedex vanilla js",
         "imagen": "./imagen/pokedex-vanillaJS.png",
-        "descripcion": "Pokedex hecho con vanilla javascript y primer proyecto separado en modulos. Como libreria de css use tailwindcss.",
+        "descripcion": "Pokedex hecho con vanilla javascript y primer proyecto separado en módulos. Como librería de css use tailwindcss.",
         "tecnologias utilizadas": [
             "Javascript",
             "tailwind"
         ],
-        "link": "https://innolize.github.io/pokedex/"
+        "link": "https://innolize.github.io/pokedex/",
+        "codigo": "https://github.com/Innolize/pokedex"
     },
     {
-        "titulo": "Spotify",
+        "titulo": "Replica spotify",
         "imagen": "./imagen/spotify-css.png",
-        "descripcion": "Replica de interfaz de spotify.",
+        "descripcion": "Replica de interfaz de spotify con el fin de aprender css",
         "tecnologias utilizadas": [
             "CSS"
         ],
-        "link": "https://innolize.github.io/Spotify/"
-    },
-    {
-        "titulo": "Portfolio",
-        "imagen": "./imagen/portfolio.png",
-        "descripcion": "Lo estas viendo!.",
-        "tecnologias utilizadas": [
-            "React",
-            "Styled-components",
-            "Gatsby"
-        ],
-        "link": "https://instabook-inno.netlify.app/"
+        "link": "https://innolize.github.io/Spotify/",
+        "codigo": "https://github.com/Innolize/Spotify"
     }
 ]

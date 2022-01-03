@@ -31,16 +31,16 @@ const Footer = () => {
     return (
         <ContenedorFooter>
             <ContenedorIconos>
-                <Link href="https://github.com/Innolize">
+                <Link href="https://www.linkedin.com/in/roman-mettler-265b45a4/">
                     <IconoEstilado icon={faLinkedin} />
                 </Link>
-                <Link href="https://www.linkedin.com/in/roman-mettler-265b45a4/">
+                <Link href="https://github.com/Innolize">
                     <IconoEstilado icon={faGithub} />
                 </Link>
 
-            </ContenedorIconos>
-            <FinalDePagina>Román Mettler ©2020</FinalDePagina>
-        </ContenedorFooter>
+            </ContenedorIconos >
+            <FinalDePagina>Román Mettler ©2022</FinalDePagina>
+        </ContenedorFooter >
     )
 }
 
