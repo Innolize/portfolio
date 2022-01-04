@@ -50,7 +50,7 @@ const Contacto = () => {
                 data-sal-easing="easeInCubic"
             >
                 <h1>Contacto</h1>
-                <h3>Tenes alguna pregunta o queres contactarte conmigo?</h3>
+                <h3>Tenés alguna pregunta o querés contactarte conmigo?</h3>
                 <form action="https://getform.io/f/105fb10e-ffa1-496e-b670-f66d7b7b047d" method="POST">
                     <InputChico name="name" placeholder="Nombre"></InputChico>
                     <InputChico name="email" placeholder="Email"></InputChico>
