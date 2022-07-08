@@ -74,12 +74,20 @@ const ContenedorCarta = styled.div`
     flex-direction: column;
     width: 360px;
 `
+const MiDescripcion = styled.p`
+    text-align: center;
+    font-size: 18px;
+`
+
+const ImagePerfil = styled.img`
+    height: 200px;
+`
 
 const Carta = ({ descripcion }) => {
     return (
         <ContenedorCarta>
-            <img style={{ height: 200 }} src="https://picsum.photos/600/600" alt="test"></img>
-            <p style={{ textAlign: 'center' }}>{descripcion}</p>
+            <ImagePerfil src="https://picsum.photos/600/600" alt="imagen-perfil"></ImagePerfil>
+            <MiDescripcion >{descripcion}</MiDescripcion>
         </ContenedorCarta>
     )
 }
