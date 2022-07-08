@@ -1,5 +1,24 @@
 [
     {
+        "titulo": "E-commerce \"Master-Tech\"",
+        "imagen": "./imagen/master-tech.png",
+        "descripcion": "Los usuarios pueden agregar productos a su carrito de compras, armar órdenes de compras y armar una PC!",
+        "tecnologias utilizadas": [
+            "Typescript",
+            "React",
+            "Material-ui",
+            "AWS",
+            "Postgres",
+            "Passport",
+            "Node",
+            "Jest",
+            "AWS",
+            "Formik"
+        ],
+        "link": "https://www.master-tech.store/",
+        "codigo": "https://github.com/Innolize/e-commerce"
+    },
+    {
         "titulo": "Copia de twitter",
         "imagen": "./imagen/twitter.png",
         "descripcion": "Red social fullstack al estilo twitter con front hecho en React y back en NestJs",
