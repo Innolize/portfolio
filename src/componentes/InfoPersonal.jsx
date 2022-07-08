@@ -103,6 +103,7 @@ const Atributo = styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
 `
 
 const ContenedorPorcentaje = styled.div`

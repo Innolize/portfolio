@@ -29,9 +29,9 @@ const Cualidades = () => {
         >
             <Titulo>Mas de mi?</Titulo>
             <ContenedorCualidades>
-                <Cualidad icon={faPencilAlt} titulo="Autodidacta" descripcion={"Soy autodidacta! Todo lo aprendido fue por cuenta propia mirando videos y leyendo documentacion"} />
-                <Cualidad icon={faLanguage} titulo="Ingles" descripcion={"Mi capacidad de lectura y comprension de ingles es intermedio-avanzado. Gran parte del material para aprender y documentacion esta en ingles, cosa que no es problema"} />
-                <Cualidad icon={faVials} titulo="Testing" descripcion={"Tengo experiencia haciendo testeos End-to-End y Unit Testing utilizando Cypress y Jest"} />
+                <Cualidad icon={faPencilAlt} titulo="Autodidacta" descripcion={"Soy autodidacta! Todo lo aprendido fue por cuenta propia mirando videos y leyendo mucha documentación"} />
+                <Cualidad icon={faLanguage} titulo="Ingles" descripcion={"Mi capacidad de lectura y comprensión de ingles es intermedio-avanzado. Gran parte de la documentación está en ingles, lo cual no me resulta un problema."} />
+                <Cualidad icon={faVials} titulo="Testing" descripcion={"Tengo experiencia con testeos End-to-End y Unit Testing utilizando Cypress y Jest."} />
             </ContenedorCualidades>|
         </ContenedorPrincipal>
     )
@@ -54,6 +54,7 @@ const IconoEstilado = styled(FontAwesomeIcon)`
 
 const Descripcion = styled.p`
     text-align: center;
+    font-size: 18px;
 `
 
 const TituloDescripcion = styled.h3`

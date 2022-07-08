@@ -28,6 +28,7 @@ const ContenedorInfo = styled.div`
 
 const DescripcionUsuario = styled.p`
     text-align: center;
+    font-size: 16px;
 `
 const TituloProyecto = styled.h4`
     margin: 10px

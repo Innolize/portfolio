@@ -80,16 +80,16 @@ const Proyectos = () => {
             <Titulo>Proyectos</Titulo>
             <ContenedorTituloProyecto>
                 <TituloProyecto onClick={mostrarTodos}>
-                    <h3>Todos</h3>
+                    <h2>Todos</h2>
                 </TituloProyecto>
                 <TituloProyecto onClick={() => filtrarProyectos('React')}>
-                    <h3>React</h3>
+                    <h2>React</h2>
                 </TituloProyecto>
                 <TituloProyecto onClick={() => filtrarProyectos('Javascript')}>
-                    <h3>Javascript</h3>
+                    <h2>Javascript</h2>
                 </TituloProyecto>
                 <TituloProyecto onClick={() => filtrarProyectos('Node')}>
-                    <h3>Node.js</h3>
+                    <h2>Node.js</h2>
                 </TituloProyecto>
             </ContenedorTituloProyecto>
             <ContenedorProyectos>
