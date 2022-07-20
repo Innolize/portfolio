@@ -27,7 +27,7 @@ const Cualidades = () => {
             data-sal-duration="1000"
             data-sal-easing="easeInCubic"
         >
-            <Titulo>Mas de mi?</Titulo>
+            <Titulo>Más de mi?</Titulo>
             <ContenedorCualidades>
                 <Cualidad icon={faPencilAlt} titulo="Autodidacta" descripcion={"Soy autodidacta! Todo lo aprendido fue por cuenta propia mirando videos y leyendo mucha documentación"} />
                 <Cualidad icon={faLanguage} titulo="Ingles" descripcion={"Mi capacidad de lectura y comprensión de ingles es intermedio-avanzado. Gran parte de la documentación está en ingles, lo cual no me resulta un problema."} />

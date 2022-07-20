@@ -65,7 +65,7 @@ const InfoPersonal = () => {
         <Contenido>
           <Carta data={data}></Carta>
           <ContenedorEstadisticas>
-            <TituloEstadisticas>Tecnologias: </TituloEstadisticas>
+            <TituloEstadisticas>Tecnologías: </TituloEstadisticas>
             {data.tecnologias.map((x, i) => (
               <Estadistica data={x} key={i} />
             ))}
