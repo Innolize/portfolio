@@ -28,6 +28,9 @@ const Contenido = styled.div`
   flex-wrap: wrap;
 `
 
+const TituloEstadisticas = styled.h2`
+`
+
 const InfoPersonal = () => {
   const query = useStaticQuery(graphql`
     {
@@ -62,6 +65,7 @@ const InfoPersonal = () => {
         <Contenido>
           <Carta data={data}></Carta>
           <ContenedorEstadisticas>
+            <TituloEstadisticas>Tecnologias: </TituloEstadisticas>
             {data.tecnologias.map((x, i) => (
               <Estadistica data={x} key={i} />
             ))}
@@ -87,7 +91,7 @@ const MiDescripcion = styled.p`
 `
 
 const ContenedorImagen = styled.div`
-  width: 300px;
+  width: 180px;
 `
 
 const Carta = ({ data }) => {
@@ -108,6 +112,7 @@ const BarraEstadistica = styled.div`
   background-color: gray;
   margin-bottom: 15px;
   display: flex;
+  border: 1px solid white;
 `
 
 const Atributo = styled.div`

@@ -7,7 +7,8 @@ const ContenedorHeader = styled.div`
     background-color:black;
     display:flex;
     ${(props) => props.fixed ?
-        'position: fixed; top: 0px; width: 100%; z-index: 1' : ''}
+        'position: fixed; top: 0px; width: 100%; z-index: 9999;' : ''}
+    border:1px solid gray;
 `
 
 const Item = styled(Link)`

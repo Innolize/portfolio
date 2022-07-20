@@ -1,29 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Separador = styled.div`
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 10%;
-    background: #2c3e50;
-    z-index: 0;
-    transform: skewY(-2deg);
-    transform-origin: top left;
-  `
-
 const ContenedorContacto = styled.div`
     position:relative;
-    background-color: #2c3e50;
     display:flex;
     align-items: center;
     flex-direction: column;
     color:white;
     padding-top: 100px;
     height: 80vh;
+    background: linear-gradient(0deg, rgba(44,62,80,1) 50%, rgba(0,0,0,1) 100%);
 `
 
 const Contenido = styled.div`
@@ -43,7 +29,6 @@ const InputGrande = styled.textarea`
 const Contacto = () => {
     return (
         <ContenedorContacto id="contacto">
-            <Separador />
             <Contenido
                 data-sal="zoom-out"
                 data-sal-delay="1000"

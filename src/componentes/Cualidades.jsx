@@ -32,7 +32,7 @@ const Cualidades = () => {
                 <Cualidad icon={faPencilAlt} titulo="Autodidacta" descripcion={"Soy autodidacta! Todo lo aprendido fue por cuenta propia mirando videos y leyendo mucha documentación"} />
                 <Cualidad icon={faLanguage} titulo="Ingles" descripcion={"Mi capacidad de lectura y comprensión de ingles es intermedio-avanzado. Gran parte de la documentación está en ingles, lo cual no me resulta un problema."} />
                 <Cualidad icon={faVials} titulo="Testing" descripcion={"Tengo experiencia con testeos End-to-End y Unit Testing utilizando Cypress y Jest."} />
-            </ContenedorCualidades>|
+            </ContenedorCualidades>
         </ContenedorPrincipal>
     )
 }
@@ -47,7 +47,7 @@ const ContenedorCualidad = styled.div`
 
 const IconoEstilado = styled(FontAwesomeIcon)`
     font-size:150px;
-    color: #2C3E50;
+    color: gray;
     align-self: center;
     padding: 20px 0px 20px 0px;
 `

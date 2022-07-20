@@ -11,6 +11,7 @@ const ContenedorFooter = styled.div`
     flex-direction: column;
     align-items: center;
     color:white;
+    border-top: 1px solid white;
 `
 const IconoEstilado = styled(FontAwesomeIcon)`
     font-size:60px;
