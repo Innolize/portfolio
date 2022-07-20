@@ -1,7 +1,7 @@
 [
     {
         "titulo": "E-commerce \"Master-Tech\"",
-        "imagen": "./imagen/master-tech.png",
+        "imagen": "./imagen-proyectos/master-tech.png",
         "descripcion": "Los usuarios pueden agregar productos a su carrito de compras, armar órdenes de compras y armar una PC!",
         "tecnologias utilizadas": [
             "Typescript",
@@ -20,7 +20,7 @@
     },
     {
         "titulo": "Copia de twitter",
-        "imagen": "./imagen/twitter.png",
+        "imagen": "./imagen-proyectos/twitter.png",
         "descripcion": "Red social fullstack al estilo twitter con front hecho en React y back en NestJs",
         "tecnologias utilizadas": [
             "Typescript",
@@ -37,7 +37,7 @@
     },
     {
         "titulo": "Sistema backend para renta de autos",
-        "imagen": "./imagen/renta-autos.png",
+        "imagen": "./imagen-proyectos/renta-autos.png",
         "descripcion": "Back-office para sistema de renta de autos, SQLite como Database y Nunjucks como template engine",
         "tecnologias utilizadas": [
             "Bulma",
@@ -52,7 +52,7 @@
     },
     {
         "titulo": "Instabook",
-        "imagen": "./imagen/instabook.png",
+        "imagen": "./imagen-proyectos/instabook.png",
         "descripcion": "Imitación de red social en firebase (db tiempo real). Permite publicar y mirar perfiles de otros usuarios",
         "tecnologias utilizadas": [
             "React",
@@ -65,7 +65,7 @@
     },
     {
         "titulo": "innoMDB",
-        "imagen": "./imagen/innoMDB.png",
+        "imagen": "./imagen-proyectos/innoMDB.png",
         "descripcion": "Imitación de pagina web 'IMDB' con buscador de película",
         "tecnologias utilizadas": [
             "React",
@@ -77,7 +77,7 @@
     },
     {
         "titulo": "Portfolio",
-        "imagen": "./imagen/portfolio.png",
+        "imagen": "./imagen-proyectos/portfolio.png",
         "descripcion": "Lo estas viendo!. Hecho con React, Gatsby y styled components",
         "tecnologias utilizadas": [
             "React",
@@ -89,7 +89,7 @@
     },
     {
         "titulo": "To-do list",
-        "imagen": "./imagen/todolist-react.png",
+        "imagen": "./imagen-proyectos/todolist-react.png",
         "descripcion": "Simple to do list para aprender las bases de Redux. Permite crear una tarea, marcarla como completa o eliminarla.",
         "tecnologias utilizadas": [
             "React",
@@ -100,7 +100,7 @@
     },
     {
         "titulo": "Calendario semanal",
-        "imagen": "./imagen/calendario.png",
+        "imagen": "./imagen-proyectos/calendario.png",
         "descripcion": "Permite crear, modificar o eliminar eventos, invitar otros usuarios y confirmar asistencia a eventos. Incluye tests",
         "tecnologias utilizadas": [
             "Javascript",
@@ -111,7 +111,7 @@
     },
     {
         "titulo": "Pokedex React",
-        "imagen": "./imagen/pokedex-react.png",
+        "imagen": "./imagen-proyectos/pokedex-react.png",
         "descripcion": "Pokedex que permite buscar, filtrar y mostrar pokemones",
         "tecnologias utilizadas": [
             "React",
@@ -123,7 +123,7 @@
     },
     {
         "titulo": "CRUD CLUBES",
-        "imagen": "./imagen/CRUD.png",
+        "imagen": "./imagen-proyectos/CRUD.png",
         "descripcion": "App monolítica hecha con express y handlebars. Permite agregar, eliminar o editar clubes de la liga inglesa.",
         "tecnologias utilizadas": [
             "Node",
@@ -134,7 +134,7 @@
     },
     {
         "titulo": "Filtrado de trabajos",
-        "imagen": "./imagen/job-listing.png",
+        "imagen": "./imagen-proyectos/job-listing.png",
         "descripcion": "Simple filtro para aprender las bases de React.",
         "tecnologias utilizadas": [
             "React",
@@ -145,7 +145,7 @@
     },
     {
         "titulo": "Simon dice",
-        "imagen": "./imagen/simon-dice.png",
+        "imagen": "./imagen-proyectos/simon-dice.png",
         "descripcion": "Uno de mis primeros proyectos , un simple simon dice hecho con javascript y aprendiendo a usar bootstrap.",
         "tecnologias utilizadas": [
             "Javascript",
@@ -156,7 +156,7 @@
     },
     {
         "titulo": "Memotest",
-        "imagen": "./imagen/memotest.png",
+        "imagen": "./imagen-proyectos/memotest.png",
         "descripcion": "Memotest simple.",
         "tecnologias utilizadas": [
             "Javascript"
@@ -166,7 +166,7 @@
     },
     {
         "titulo": "Pokedex vanilla js",
-        "imagen": "./imagen/pokedex-vanillaJS.png",
+        "imagen": "./imagen-proyectos/pokedex-vanillaJS.png",
         "descripcion": "Pokedex hecho con vanilla javascript y primer proyecto separado en módulos. Como librería de css use tailwindcss.",
         "tecnologias utilizadas": [
             "Javascript",
@@ -177,7 +177,7 @@
     },
     {
         "titulo": "Replica spotify",
-        "imagen": "./imagen/spotify-css.png",
+        "imagen": "./imagen-proyectos/spotify-css.png",
         "descripcion": "Replica de interfaz de spotify con el fin de aprender css",
         "tecnologias utilizadas": [
             "CSS"

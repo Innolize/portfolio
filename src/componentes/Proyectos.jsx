@@ -44,17 +44,18 @@ const Proyectos = () => {
                     link
                     titulo
                     codigo
-                    imagen {
-                      publicURL
-                      childImageSharp {
-                        fluid {
-                          ...GatsbyImageSharpFluid
+                    imagen{
+                        publicURL
+                        childImageSharp {
+                          fluid {
+                            ...GatsbyImageSharpFluid
+                          }
                         }
                       }
-                    }
                   }
                 }
-              }
+            }
+           
         }
     `)
 
