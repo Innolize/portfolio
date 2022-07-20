@@ -13,7 +13,7 @@
             },
             {
                 "tecnologia": "CSS",
-                "confianza": "70%"
+                "confianza": "80%"
             },
             {
                 "tecnologia": "React",
@@ -21,7 +21,7 @@
             },
             {
                 "tecnologia": "Restful API",
-                "confianza": "80%"
+                "confianza": "85%"
             },
             {
                 "tecnologia": "Redux",
@@ -29,7 +29,7 @@
             },
             {
                 "tecnologia": "Cypress",
-                "confianza": "60%"
+                "confianza": "65%"
             },
             {
                 "tecnologia": "Jest",
@@ -37,7 +37,7 @@
             },
             {
                 "tecnologia": "Node.js",
-                "confianza": "85%"
+                "confianza": "90%"
             }
         ]
     }
