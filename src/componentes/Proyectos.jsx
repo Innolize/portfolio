@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import { graphql, useStaticQuery } from "gatsby"
 import Proyecto from "./Proyecto"
+import { useCallback } from "react"
 
 const ContenedorPrincipal = styled.div`
   display: flex;
@@ -24,6 +25,11 @@ const TituloProyecto = styled.div`
     cursor: pointer;
     margin: 0px 15px;
     border: 1px solid gray;
+    ${props =>
+      props.selected
+        ? "color: black; background-color:gray;"
+        : "color:white; background: black;"}
+        transition: background 0.5s, background-color 0.5s
 }
 `
 
@@ -31,6 +37,7 @@ const ContenedorTituloProyecto = styled.div`
   display: flex;
   justify-content: space-between;
 `
+
 
 const Proyectos = () => {
   const query = useStaticQuery(graphql`
@@ -59,16 +66,20 @@ const Proyectos = () => {
 
   const respuestaQuery = query.allProyectosJson.edges
   const data = respuestaQuery.map(respuesta => respuesta.node)
-
   const [mostrar, setMostrar] = useState(data)
-
-  const mostrarTodos = () => {
+  const [seleccionado, setSeleccionado] = useState("Todos")
+  const mostrarTodos = useCallback(() => {
     setMostrar(data)
-  }
+    setSeleccionado("Todos")
+  }, [data])
 
-  const filtrarProyectos = string => {
-    setMostrar(data.filter(x => x.tecnologias_utilizadas.includes(string)))
-  }
+  const filtrarProyectos = useCallback(
+    string => {
+      setMostrar(data.filter(x => x.tecnologias_utilizadas.includes(string)))
+      setSeleccionado(string)
+    },
+    [data]
+  )
 
   return (
     <ContenedorPrincipal
@@ -79,16 +90,28 @@ const Proyectos = () => {
     >
       <Titulo>Proyectos</Titulo>
       <ContenedorTituloProyecto>
-        <TituloProyecto onClick={mostrarTodos}>
+        <TituloProyecto
+          selected={seleccionado === "Todos"}
+          onClick={() => mostrarTodos()}
+        >
           <h2>Todos</h2>
         </TituloProyecto>
-        <TituloProyecto onClick={() => filtrarProyectos("React")}>
+        <TituloProyecto
+          selected={seleccionado === "React"}
+          onClick={() => filtrarProyectos("React")}
+        >
           <h2>React</h2>
         </TituloProyecto>
-        <TituloProyecto onClick={() => filtrarProyectos("Javascript")}>
+        <TituloProyecto
+          selected={seleccionado === "Javascript"}
+          onClick={() => filtrarProyectos("Javascript")}
+        >
           <h2>Javascript</h2>
         </TituloProyecto>
-        <TituloProyecto onClick={() => filtrarProyectos("Node")}>
+        <TituloProyecto
+          selected={seleccionado === "Node"}
+          onClick={() => filtrarProyectos("Node")}
+        >
           <h2>Node.js</h2>
         </TituloProyecto>
       </ContenedorTituloProyecto>

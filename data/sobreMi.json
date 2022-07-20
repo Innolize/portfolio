@@ -1,7 +1,7 @@
 [
     {
         "perfil": "./imagen-perfil/perfil.jpg",
-        "descripcion": "Mi nombre es Román y Soy Desarrollador Fullstack Javascript. Me gustan los desafíos y resolver problemas, por lo que programar se volvió mi hobby preferido. Estoy siempre abierto a aprender nuevas tecnologías. Tengo conocimientos basicos de otros lenguajes como C# y Python, pero por el momento con Typescript es donde me siento mas comodo.",
+        "descripcion": "Mi nombre es Román y Soy Desarrollador Fullstack Javascript. Me gustan los desafíos y resolver problemas, por lo que programar se volvió mi hobby preferido. Estoy siempre abierto a aprender nuevas tecnologías. Tengo conocimientos básicos de otros lenguajes como C# y Python, pero por el momento con Typescript es donde me siento mas cómodo.",
         "tecnologias": [
             {
                 "tecnologia": "Javascript",

@@ -9,13 +9,14 @@ const ContenedorProyecto = styled.div`
     padding: 10px;    
     margin: 10px;
 `
-// border: 2px solid #2C3E50;
+
 
 const ContenedorPrevia = styled.div`
     width: 360px;
     position:absolute;
     transition: opacity 0.5s, visibility 0.5s;
-    background-color: black;
+    background-color: white;
+    color:black;
     ${(props) => props.hover ? 'opacity:0; visibility: hidden;' : ""}
 `
 
