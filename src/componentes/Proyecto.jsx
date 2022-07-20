@@ -35,6 +35,11 @@ const TituloProyecto = styled.h4`
     margin: 10px
 `
 
+const Link = styled.a`
+    color: white;
+    font-weight: bold;
+`
+
 const Proyecto = ({ data }) => {
     const [hover, setHover] = useState(false)
     return (
@@ -45,8 +50,8 @@ const Proyecto = ({ data }) => {
             <ContenedorInfo hover={hover}>
                 <TituloProyecto >{data.titulo}</TituloProyecto>
                 <DescripcionUsuario>{data.descripcion}</DescripcionUsuario>
-                {data.link && <a href={data.link}>Ir a pagina!</a>}
-                <a href={data.codigo}>Codigo</a>
+                {data.link && <Link href={data.link}>Ir a pagina!</Link>}
+                <Link href={data.codigo}>Ir a Codigo!</Link>
             </ContenedorInfo>
             <ContenedorPrevia hover={hover}>
                 <Img fluid={data.imagen.childImageSharp.fluid}></Img>
