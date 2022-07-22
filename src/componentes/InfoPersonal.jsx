@@ -92,6 +92,7 @@ const MiDescripcion = styled.p`
 
 const ContenedorImagen = styled.div`
   width: 180px;
+  border: 1px solid white;
 `
 
 const Carta = ({ data }) => {
